@@ -3,12 +3,12 @@
 // Based on http://underscorejs.org/#keys
 
 
-function showKeys(obj) {
+function keys(obj) {
   
     let keysArr=Object.keys(obj);
     return keysArr;
 }
 
-module.exports=showKeys; 
+module.exports=keys; 
 
 

@@ -3,7 +3,7 @@
 // http://underscorejs.org/#values
 
 
-function  showKeysValue(obj) {
+function  values(obj) {
 
  if(typeof obj!=='object'){
     return null;
@@ -27,4 +27,4 @@ then using keys we will get values  and then we will check value's type for igno
   return valuesArr;
 }
 
-module.exports=showKeysValue;
+module.exports=values;
